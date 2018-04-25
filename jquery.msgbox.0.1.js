@@ -38,7 +38,7 @@
       "</div>").appendTo("body");
 
     $('.farmAlert .boxHeaderTitle').text(defaultOptions.title);
-    $('.farmAlert .msg').text(defaultOptions.content);
+    $('.farmAlert .msg').html(defaultOptions.content);
     switch (defaultOptions.type){
       case 'error' :
         $('.farmAlert .boxHeader').css('background-color','#dd4b39');
