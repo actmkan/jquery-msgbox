@@ -1,6 +1,6 @@
 {
   "name": "jquery-msgbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "심플 메세지박스 jquery 플러그인\r ===============================\r >2018-04-20 안만기",
   "main": "main.js",
   "scripts": {
