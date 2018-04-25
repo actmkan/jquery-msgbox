@@ -1,0 +1,19 @@
+{
+  "name": "jquery-msgbox",
+  "version": "1.0.0",
+  "description": "심플 메세지박스 jquery 플러그인\r ===============================\r >2018-04-20 안만기",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actmkan/jquery-msgbox.git"
+  },
+  "author": "mkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actmkan/jquery-msgbox/issues"
+  },
+  "homepage": "https://github.com/actmkan/jquery-msgbox#readme"
+}

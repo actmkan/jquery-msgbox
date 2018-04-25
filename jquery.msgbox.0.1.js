@@ -39,7 +39,23 @@
 
     $('.farmAlert .boxHeaderTitle').text(defaultOptions.title);
     $('.farmAlert .msg').text(defaultOptions.content);
-    $('.farmAlert .box').addClass(defaultOptions.type);
+    switch (defaultOptions.type){
+      case 'error' :
+        $('.farmAlert .boxHeader').css('background-color','#dd4b39');
+        $('.farmAlert .boxHeaderTitle').css('color','#fff');
+        $('.farmAlert > .box').css('border','#d73925 solid 1px');
+        break;
+      case 'info' :
+        $('.farmAlert .boxHeader').css('background-color','#3c8dbc');
+        $('.farmAlert .boxHeaderTitle').css('color','#fff');
+        $('.farmAlert > .box').css('border','#3c8dbc solid 1px');
+        break;
+      default :
+        $('.farmAlert .boxHeader').css('background-color','#172825');
+        $('.farmAlert .boxHeaderTitle').css('color','#fff');
+        $('.farmAlert > .box').css('border','#172825 solid 1px');
+        break;
+    }
 
     if(defaultOptions.okBtn===false){
       $('.farmAlert .ok').remove();
