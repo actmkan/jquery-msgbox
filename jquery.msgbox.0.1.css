@@ -1,5 +1,7 @@
-.farmAlert{
-    display: block;
+.farmAlert *{
+    -webkit-box-sizing : unset;
+    -moz-box-sizing: unset;
+    box-sizing: unset;
 }
 .farmAlert > .overlay{
     position: fixed;
@@ -33,7 +35,7 @@
 }
 
 .farmAlert > .box > .boxHeader{
-    height: 40px;
+    height: 20px;
     padding: 10px;
     background-color: #172825;
 }
@@ -74,8 +76,8 @@
 }
 
 .farmAlert > .box > .boxFooter{
-    height: 40px;
-    padding: 5px;
+    height: 28px;
+    padding: 6px;
     background-color: #fff;
 }
 .farmAlert > .box > .boxFooter > .button{
